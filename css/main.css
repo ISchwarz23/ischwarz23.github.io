@@ -421,6 +421,16 @@ Primary use:
   RESPONSIVE RESPONSIVE RESPONSIVE RESPONSIVE RESPONSIVE RESPONSIVE
 ==================================================================*/
 
+br.mobile-only {
+  display: inline;
+}
+
+@media (min-width: 992px) {
+  br.mobile-only {
+    display: none;
+  }
+}
+
 
 /*//////////////////////////////////////////////////////////////////
 [ XL ]*/
