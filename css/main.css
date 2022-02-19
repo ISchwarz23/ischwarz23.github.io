@@ -203,16 +203,6 @@ Primary use:
   line-height: 1;
 }
 
-/*---------------------------------------------*/
-.s2-txt1 {
-  font-family: Poppins-Medium;
-  font-size: 15px;
-  color: #fff;
-  line-height: 1.2;
-}
-
-
-
 /*//////////////////////////////////////////////////////////////////
 [ M-Text 16 - 25 ]*/
 .m1-txt1 {
@@ -221,8 +211,7 @@ Primary use:
   color: #333;
   line-height: 1.2;
 }
-
-/*---------------------------------------------*/
+  
 .m2-txt1 {
   font-family: Poppins-Regular;
   font-size: 24px;
@@ -250,13 +239,6 @@ Primary use:
 .l1-txt2 {
   font-family: PlayfairDisplay-BlackItalic;
   font-size: 90px;
-  color: #fff;
-  line-height: 1.1;
-}
-
-.l1-txt3 {
-  font-family: PlayfairDisplay-Italic;
-  font-size: 72px;
   color: #fff;
   line-height: 1.1;
 }
@@ -548,6 +530,51 @@ Primary use:
   /*---------------------------------------------*/
   .respon6 {
     text-align: center;
+  }
+
+  /*---------------------------------------------*/
+  
+
+  /*//////////////////////////////////////////////////////////////////
+  [ S-Text 0 - 15 ]*/
+  .s1-txt1 {
+    font-family: PlayfairDisplay-Italic;
+    font-size: 14px;
+    color: #fff;
+    line-height: 1;
+  }
+
+  /*//////////////////////////////////////////////////////////////////
+  [ M-Text 16 - 25 ]*/
+  .m2-txt1 {
+    font-family: Poppins-Regular;
+    font-size: 18px;
+    color: #cccccc;
+    line-height: 1.2;
+  }
+
+  .m2-txt2 {
+    font-family: Poppins-Regular;
+    font-size: 18px;
+    color: #aaaaaa;
+    line-height: 1.2;
+  }
+
+
+  /*//////////////////////////////////////////////////////////////////
+  [ L-Text >= 26 ]*/
+  /* .l1-txt1 {
+    font-family: PlayfairDisplay-Bold;
+    font-size: 60px;
+    color: #fff;
+    line-height: 1;
+  } */
+
+  .l1-txt2 {
+    font-family: PlayfairDisplay-Italic;
+    font-size: 64px;
+    color: #fff;
+    line-height: 1.1;
   }
 
 }
