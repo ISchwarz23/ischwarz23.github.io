@@ -153,6 +153,10 @@ Primary use:
   }
 }
 
+.m-t-15 {
+  margin-top: 15px;
+}
+
 
 
 /*//////////////////////////////////////////////////////////////////
@@ -226,6 +230,13 @@ Primary use:
   line-height: 1.2;
 }
 
+.m2-txt2 {
+  font-family: Poppins-Regular;
+  font-size: 24px;
+  color: #aaaaaa;
+  line-height: 1.2;
+}
+
 
 /*//////////////////////////////////////////////////////////////////
 [ L-Text >= 26 ]*/
@@ -239,6 +250,13 @@ Primary use:
 .l1-txt2 {
   font-family: PlayfairDisplay-BlackItalic;
   font-size: 90px;
+  color: #fff;
+  line-height: 1.1;
+}
+
+.l1-txt3 {
+  font-family: PlayfairDisplay-Italic;
+  font-size: 72px;
   color: #fff;
   line-height: 1.1;
 }
@@ -361,7 +379,7 @@ Primary use:
   height: 100%;
   top: 0;
   left: 0;
-  background: rgba(0,0,0,0.7);
+  background: rgba(0,0,0,0.5);
 }
 
 /*---------------------------------------------*/
